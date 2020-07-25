@@ -1,9 +1,7 @@
 // modules2.rs
-// Make me compile! Execute `rustlings hint modules2` for hints :)
+// Make me compile! Scroll down for hints :)
 
-// I AM NOT DONE
-
-mod delicious_snacks {
+mod delicious_snacks { 
     use self::fruits::PEAR as fruit;
     use self::veggies::CUCUMBER as veggie;
 
@@ -19,9 +17,29 @@ mod delicious_snacks {
 }
 
 fn main() {
-    println!(
-        "favorite snacks: {} and {}",
-        delicious_snacks::fruit,
-        delicious_snacks::veggie
-    );
+    println!("favorite snacks: {} and {}",
+             delicious_snacks::fruit,
+             delicious_snacks::veggie);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// The delicious_snacks module is trying to present an external
+// interface (the `fruit` and `veggie` constants) that is different than
+// its internal structure (the `fruits` and `veggies` modules and
+// associated constants). It's almost there except for one keyword missing for
+// each constant.
