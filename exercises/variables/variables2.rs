@@ -2,7 +2,7 @@
 // Make me compile! Scroll down for hints :)
 
 fn main() {
-    let x;
+    const x: u8 = 0;
     if x == 10 {
         println!("Ten!");
     } else {
